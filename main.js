@@ -8,8 +8,6 @@ nadpis.classList.remove('zluty');
 let ctverecek = document.querySelector('div.zluty')
 ctverecek.classList.add('ctverecek')
 
-
-
 let pocitadlo = 0;
 function priNajeti () {
 console.log('test' + pocitadlo);
@@ -20,24 +18,28 @@ function zmenStyl() {
     nadpis.classList.toggle('zluty')
 }
 
+
+
 // úkol na lekci
 
-let pali = document.querySelector('.palindrom');
-
 function ztucniPriNajeti() {
-pali.classList.add('mordnilap');
+    let pali = document.querySelector('.palindrom');
+    pali.classList.add('mordnilap');
 }
+
 function odtucniPriVyjeti() {
-pali.classList.remove('mordnilap');
+    let pali = document.querySelector('.palindrom');
+    pali.classList.remove('mordnilap');
 }
 
 function zcervenej() {
-pali.classList.toggle('cervena')
+    let pali = document.querySelector('.palindrom');
+    pali.classList.toggle('cervena')
 }
-
 
 let sizePalindromu = 17
 function zvets() {
+    let pali = document.querySelector('.palindrom');
     sizePalindromu++
     let px = sizePalindromu + 'px'
     pali.style.fontSize = px;
