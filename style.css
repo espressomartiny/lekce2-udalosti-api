@@ -121,3 +121,12 @@ li {
 	color: black;
 	border-color: blue;
 }
+
+/* úkol na lekci*/
+.palindrom {
+	font-size: 16px;
+}
+
+.mordnilap {
+	font-weight: bold;
+}
