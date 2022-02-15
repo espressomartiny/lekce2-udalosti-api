@@ -34,3 +34,11 @@ pali.classList.remove('mordnilap');
 function zcervenej() {
 pali.classList.toggle('cervena')
 }
+
+
+let sizePalindromu = 17
+function zvets() {
+    sizePalindromu++
+    let px = sizePalindromu + 'px'
+    pali.style.fontSize = px;
+}
