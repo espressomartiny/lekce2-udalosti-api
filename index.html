@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onkeydown="stisk(event)">
 
 	<h1 onclick="zmenStyl()">Změna tříd, události</h1>
 
@@ -23,21 +23,30 @@
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
 
+	<!-- úkoly  -->
 
-	<!-- úkoly na lekci -->
 	<div class="ukoly">
 		<p onmouseover="ztucniPriNajeti()" onmouseout="odtucniPriVyjeti()" class="palindrom">
 			V elipse spí lev.
 		</p>
-
 		<button onclick="zcervenej()"> červené po kliknutí </button>
 		<button onclick="zvets()"> větší po kliknutí </button>
+	</div>
+
+	<div class="audio">
+		<audio id="zvukova-stopa" src="audio/dingdingdang.mp3" preload="auto"></audio>
+		<p>Audiopanel</p>
+		<button onclick="prehraj()">Zapni píseň</button>
+		<button onclick="pauzni()">Pauzni</button>
+		<button onclick="hlasitostDown()">Ztiš</button>
+		<button onclick="hlasitostMid()">Hlasitost tak akorát</button>
+		<button onclick="hlasitostUp()">Hlasitost na maximum</button>
+		<button onclick="vrat()">Nastav na začátek</button>
 
 	</div>
-	<!-- úkoly na lekci -->
 
+	<!-- úkoly -->
 
 	<script type="text/JavaScript" src="main.js"></script>
 

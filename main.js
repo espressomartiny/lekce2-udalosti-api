@@ -20,7 +20,7 @@ function zmenStyl() {
 
 
 
-// úkol na lekci
+// úkoly
 
 function ztucniPriNajeti() {
     let pali = document.querySelector('.palindrom');
@@ -43,4 +43,37 @@ function zvets() {
     sizePalindromu++
     let px = sizePalindromu + 'px'
     pali.style.fontSize = px;
+}
+
+function stisk(udalost) {
+    console.log(udalost.key)
+}
+
+function prehraj() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    console.log('Zapínám píseň...');
+    audioFile.play();
+}
+
+function pauzni() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    audioFile.pause();
+}
+
+function hlasitostDown() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    audioFile.volume = 0;
+}
+function hlasitostMid() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    audioFile.volume = 0.5;
+}
+function hlasitostUp() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    audioFile.load = 1;
+}
+
+function vrat() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    audioFile.currentTime = 0;
 }

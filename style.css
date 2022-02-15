@@ -121,7 +121,8 @@ li {
   border-color: blue;
 }
 
-/* úkol na lekci*/
+/* úkoly */
+
 .palindrom {
   font-size: 16px;
   display: inline;
@@ -136,13 +137,20 @@ li {
   color: red;
 }
 
-.ukoly {
-  background-color: lightcyan;
+.ukoly,
+.audio {
+  background-color: lavender;
+  border-radius: 20px;
   margin-top: 50px;
   padding: 20px;
+  text-align: center;
 }
 
-.ukoly button {
-	display: block;
-	margin-top: 10px;
+.ukoly button,
+.audio button {
+  border-radius: 20px;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
 }
