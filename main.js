@@ -27,3 +27,6 @@ let pali = document.querySelector('.palindrom');
 function ztucniPriNajeti() {
 pali.classList.add('mordnilap');
 }
+function odtucniPriVyjeti() {
+pali.classList.remove('mordnilap');
+}
