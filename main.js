@@ -30,3 +30,7 @@ pali.classList.add('mordnilap');
 function odtucniPriVyjeti() {
 pali.classList.remove('mordnilap');
 }
+
+function zcervenej() {
+pali.classList.toggle('cervena')
+}
