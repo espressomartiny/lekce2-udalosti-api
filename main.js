@@ -67,7 +67,7 @@ function hlasitostMid() {
 }
 function hlasitostUp() {
   let audioFile = document.getElementById("zvukova-stopa");
-  audioFile.load = 1;
+  audioFile.volume = 1;
 }
 
 function vrat() {
